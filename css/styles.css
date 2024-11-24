@@ -482,10 +482,8 @@ img {
 }
 
 .footer-btn {
-  position: relative;
-
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 
   border-radius: 4px;
@@ -512,10 +510,7 @@ img {
   background-color: #404bbf;
 }
 .form-icon {
-  position: absolute;
-  right: 24px;
-  top: 50%;
-  transform: translateY(-50%);
+  margin-left: 16px;
 }
 /* #endregion footer-Form */
 
