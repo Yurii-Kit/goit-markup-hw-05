@@ -447,14 +447,17 @@ img {
 }
 
 /* #endregion Features */
-/* #region Form */
+/* #region Footer-Form */
 
 .footer-form {
-  display: flex;
-  flex-direction: column;
   margin-left: auto;
-  justify-content: center;
-  align-items: flex-start;
+}
+.form {
+  display: flex;
+  gap: 24px;
+}
+.none {
+  width: 264px;
 }
 
 .footer-input {
@@ -509,7 +512,7 @@ img {
   top: 50%;
   transform: translateY(-50%);
 }
-/* #endregion Form */
+/* #endregion footer-Form */
 
 /* #region backdrope */
 .backdrope {
