@@ -651,6 +651,7 @@ img {
   color: rgba(46, 47, 66, 0.4);
 
   outline: transparent;
+  background-color: transparent;
 
   font-size: 12px;
   line-height: 1.17;
